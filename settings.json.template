@@ -28,7 +28,7 @@
   // theme (see /public/themes for available themes)
   "theme": "Cyborg",
 
-  // port to listen for requests on.
+  // port to listen for requests on. Best results, match this with port from address above
   "port" : 3001,
 
   // database settings (MongoDB)
@@ -44,7 +44,7 @@
   "update_timeout": 10,
   "check_timeout": 250,
 
-  // wallet settings
+  // wallet settings, this is in your coinname.conf, normally keep host the same. Change port to coinport not rpc port.
   "wallet": {
     "host": "localhost",
     "port": 9332,
