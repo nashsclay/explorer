@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/nashsclay/explorer/master/setup_mongo.sh
 chmod +x setup_mongo.sh
 ./setup_mongo.sh
 ```
+Follow the "Create Database" directions below now. Just that section. Then do the following:
 
 An open source block explorer written in node.js.
 
