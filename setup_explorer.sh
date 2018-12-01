@@ -1,3 +1,4 @@
+#!/bin/bash
 git clone https://github.com/iquidus/explorer explorer
 cd explorer/
 sudo apt-get install -y npm
