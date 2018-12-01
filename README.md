@@ -26,7 +26,16 @@ chmod +x setup_additional_files.sh
 ./setup_additional_files.sh
 ```
 Next stop current wallet and re-run with tags -daemon AND -reindex.
-
+Double check your are FULLY synced. When done, run:
+```
+node scripts/sync.js index reindex
+```
+This command can take a number of minutes. Let it work. When done, run this command:
+```
+node scripts/sync.js index update
+```
+This command can take minutes to hours! Depends on your vps speed and size of the blockchain. Let it work.
+When done we need to add cron jobs to make it automatic. Scroll down till you see a section with "Crontab". 
 
 An open source block explorer written in node.js.
 
@@ -119,8 +128,11 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
 
 *It is recommended to have this script launched via a cronjob at 1+ min intervals.*
 
-**crontab**
-
+### crontab 
+To make changes do: (note this will open a tmp file but when save will override current / add to new file)
+```
+crontab -e
+```
 *Example crontab; update index every minute and market data every 2 minutes*
 
     */1 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
