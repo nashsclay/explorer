@@ -26,6 +26,12 @@ chmod +x setup_additional_files.sh
 ./setup_additional_files.sh
 ```
 Next stop current wallet and re-run with tags -daemon AND -reindex.
+Now from here you can run these commands (one when starting and one when need to stop to make gfx and coding changes to your explorer.) These commands MUST be ran from the "explorer" folder.
+```
+nano settings.json # allows edits of the explorer
+npm start
+npm stop 
+```
 Double check your are FULLY synced. When done, run:
 ```
 node scripts/sync.js index reindex
