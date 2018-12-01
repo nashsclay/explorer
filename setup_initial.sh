@@ -8,5 +8,6 @@ sudo apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::=
 sudo apt-get install -y libgmp3-dev
 sudo apt-get update
 sudo apt-get upgrade
-echo -e "Script will now end for initial update of server. Now install your coin and make sure the files (coind, coin-cli *if available*, coin-tx *if available* are in the /usr/local/bin directory and fully synced before continue."
+clear
+echo -e "Script has now ended for initial update of server. Now install your coin and make sure the files (coind, coin-cli *if available*, coin-tx *if available* are in the /usr/local/bin directory and fully synced before continue."
 exit 1
