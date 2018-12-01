@@ -21,9 +21,9 @@ chmod +x setup_explorer.sh
 ```
 Follow the "Configure" category step below now. Then edit with nano the settings.json file. When done do this script next:
 ```
-wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_additional_Files.sh
-chmod +x setup_additional_Files.sh
-./setup_additional_Files.sh
+wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_additional_files.sh
+chmod +x setup_additional_files.sh
+./setup_additional_files.sh
 ```
 
 An open source block explorer written in node.js.
