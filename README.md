@@ -9,12 +9,16 @@ chmod +x setup_initial.sh
 ```
 Now setup your coin and allow it to sync. Next do the following script to setup mongo
 ```
-https://raw.githubusercontent.com/nashsclay/explorer/master/setup_mongo.sh
+wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_mongo.sh
 chmod +x setup_mongo.sh
 ./setup_mongo.sh
 ```
 Follow the "Create Database" directions below now. Just that section. Then do the following:
-
+```
+wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_explorer.sh
+chmod +x setup_explorer.sh
+./setup_explorer.sh
+```
 An open source block explorer written in node.js.
 
 ### See it in action
