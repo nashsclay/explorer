@@ -5,4 +5,4 @@ sudo apt-get install mongodb-org=2.6.2 mongodb-org-server=2.6.2 mongodb-org-shel
 sudo ufw allow 27017
 sudo mkdir -p /data/db/
 sudo chown `id -u` /data/db
-nohup mongod &
+nohup mongod 2> /dev/null &
