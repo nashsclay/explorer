@@ -25,6 +25,8 @@ wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_additiona
 chmod +x setup_additional_files.sh
 ./setup_additional_files.sh
 ```
+Next stop current wallet and re-run with tags -daemon AND -reindex.
+
 
 An open source block explorer written in node.js.
 
