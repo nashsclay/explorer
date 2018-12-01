@@ -1,10 +1,17 @@
 Iquidus Explorer - 1.6.1
 ================
 
+Easy setup
 ```
 wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_initial.sh
 chmod +x setup_initial.sh
 ./setup_initial.sh
+```
+Now setup your coin and allow it to sync. Next do the following script to setup mongo
+```
+https://raw.githubusercontent.com/nashsclay/explorer/master/setup_mongo.sh
+chmod +x setup_mongo.sh
+./setup_mongo.sh
 ```
 
 An open source block explorer written in node.js.
