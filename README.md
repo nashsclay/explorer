@@ -4,7 +4,7 @@ Iquidus Explorer - 1.6.1
 ```
 wget https://raw.githubusercontent.com/nashsclay/explorer/master/setup_initial.sh
 chmod +x setup_initial.sh
-./setup_inital.sh
+./setup_initial.sh
 ```
 
 An open source block explorer written in node.js.
