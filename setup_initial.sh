@@ -10,4 +10,5 @@ sudo apt-get update
 sudo apt-get upgrade
 clear
 echo -e "Script has now ended for initial update of server. Now install your coin and make sure the files (coind, coin-cli *if available*, coin-tx *if available* are in the /usr/local/bin directory and fully synced before continue."
+echo -e ""
 exit 1
